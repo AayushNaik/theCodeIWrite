@@ -1,13 +1,13 @@
-class Shape {
+class areaRecTri {
     double area;
 
     // Constructor for rectangle
-    Shape(int length, int width) {
+    areaRecTri(int length, int width) {
         area = length * width;
     }
 
     // Constructor for triangle
-    Shape(double base, double height) {
+    areaRecTri(double base, double height) {
         area = 0.5 * base * height;
     }
 
@@ -17,11 +17,11 @@ class Shape {
 
     public static void main(String[] args) {
         // Calculate area of rectangle
-        Shape rectangle = new Shape(5, 4);
+        areaRecTri rectangle = new areaRecTri(5, 4);
         rectangle.displayArea();
 
         // Calculate area of triangle
-        Shape triangle = new Shape(5.0, 4.0);
+        areaRecTri triangle = new areaRecTri(5.0, 4.0);
         triangle.displayArea();
     }
 }
