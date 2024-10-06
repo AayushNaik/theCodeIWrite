@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.password-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#password-strength {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.star {
+    font-size: 24px;
+    color: #ddd;
+    margin: 0 3px;
+}
+
+.star.active {
+    color: #f4b400;
+}
+
+#strength-text {
+    font-weight: bold;
+    color: #333;
+}
